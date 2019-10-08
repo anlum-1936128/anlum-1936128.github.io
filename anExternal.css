@@ -1,0 +1,36 @@
+body {
+	background-color: darkslategrey;
+	color: azure;
+}
+
+h1 {
+	color: black;
+}
+
+h2 { 
+	color: white
+}
+
+h3 {
+	color: gray;
+}
+
+#hawaii {
+  border-radius: 25px;
+  background: url(https://1bo9y82e76el2rf8ms1m5i0r-wpengine.netdna-ssl.com/wp-content/uploads/2017/06/OPT-02.jpg);
+  background-position: middle;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 500px;
+  height: 200px;  
+}
+
+#korea {
+  border-radius: 25px;
+  background: url(http://www.johnsteelephoto.com/wp-content/uploads/2014/12/JSP_1397_8-Edit-Edit.jpg);
+  background-position: middle;
+  background-repeat: repeat;
+  padding: 20px; 
+  width: 500px;
+  height: 200px;  
+}
