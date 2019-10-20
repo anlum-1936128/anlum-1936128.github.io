@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Job Application</title>
+	<link rel="stylesheet" type="text/css" href="./formattedwork.css">
+
+</head>
+<body>
+		<div id = "Header">
+			<h1>Job Application</h1>
+		</div>
+
+		<div id = "Heading">
+			<h2>Personal Information</h2>
+		</div>
+
+		<div id = "Personal">
+			<form name="input" action="html_form_action.asp" method="get">
+				First Name:
+				<input type="text" name="firstname">
+				Last Name:
+				<input type="text" name="lastname"><br>
+				Password:
+				<input type="password" name="pwd">
+		</div>
+
+		<hr>
+
+		<div id = "Heading">
+			<h2>Availability</h2>
+		</div>
+
+		<div id = "Availability">
+			<h4>Do you live in Seattle?</h4>
+				<input type="radio" name="answer" value="Yes">Yes
+				<input type="radio" name="answer" value="No"> No<br>
+
+			<h4>Please check what applies to you</h4>
+
+				<input type="checkbox" name="vehicle" value="bike"> I can work mornings
+				<br>
+				<input type="checkbox" name="vehicle" value="car"> I can work afternoons
+				<br>
+				<input type="checkbox" name="vehicle" value="car"> I can work evenings
+				<br>
+				<input type="checkbox" name="vehicle" value="car"> I can work overtime
+				<br>
+
+			<h4>What day do you want your flex day?</h4>
+				<select name="cars">
+					<option value="sunday">Sunday</option>
+					<option value="monday">Monday</option>
+					<option value="tuesday">Tuesday</option>
+					<option value="wednesday">Wednesday</option>
+					<option value="thursday">Thursday</option>
+					<option value="friday">Friday</option>
+					<option value="saturday">Saturday</option>
+				</select>
+				<br>
+				<input type="submit" value="Submit form">
+		</div>
+
+		<hr>
+
+		<div id = "Heading">
+			<h2>Personal Statement</h1>
+		</div>
+
+		<div id = "PersonalStatement">
+			<label class="control-label">Why do you want this position?</label><br>
+			<textarea class="form-control" name="deserve" rows="6">
+			</textarea><br>
+			<label class="control-label">Why do you deserve this position?</label><br>
+			<textarea class="form-control" name="deserve" rows="6">
+			</textarea><br>
+		</div>
+		
+	</form>
+</body>
+
